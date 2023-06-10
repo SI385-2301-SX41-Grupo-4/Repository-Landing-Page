@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navegation{
+    position:relative;
+    width:100%;
+    padding: 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background: #fff;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-fluid .logo{
+    position: relative;
+    max-width: 100px;
+    align-items: left;
+}
+.container-fluid #navbar-nav{
+    position: relative;
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+}
+#nav-link {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+/* SECCION N° 1  */
+
+.content{
+    position:relative;
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    font-family: 'Poppins';
+}
+.content .textBox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: #017143;
+    font-size:1.2em;
+    font-weight:900;
+}
+.content .textBox p{
+    color: #333;
+    font-size: 1.5em;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imagen{
+    width:600px;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+.content .imagen img{
+    max-width: 340px;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600 px at center);
+}
+
+/* SECCION N° 2  */
+
+.content2{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.content2 .textBox{
+    position: relative;
+    max-width: 600px;
+    padding: 80px;
+    font-family: 'Poppins';
+}
+.content2 .textBox h3{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    text-align: right;
+    padding: 20px;
+    
+}
+.content2 .textBox p{
+    color: #333;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.content2 .logo{
+    width:500px;
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 10px;
+    align-self: center;
+    
+}
+
+/* SECCION N° 3  */
+
+.content3{
+    position:relative;
+    width:100%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding:64px 24px 90px 24px
+    
+}
+.content3 .card{
+    width: 40rem;
+}
+.content3 .card-title{
+    position: relative;
+    max-width: 600px;
+    padding: 80px;
+    font-family: 'Poppins';
+}
+/*.content3 .card-title h4{
+    color: #333;
+    font-size:65px;
+    
+    font-weight:700;
+    text-align: right;
+    padding: 10px;
+} */
+h4{
+    font-size:65px;
+    font-weight:700;
+}
+/* SECCION N° 4  */
+
+.content4{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    padding:64px 24px 90px 24px
+}
+.content4 .card{
+    width: 40rem;
+}
+.content4 .card-title{
+    position: relative;
+    max-width: 600px;
+    padding: 80px;
+    font-family: 'Poppins';
+}
+.content4 .card-title h5{
+    color: #333;
+    font-size: 65px;
+    line-height: 1.4em;
+    font-weight: 900;
+    text-align: justify;
+    padding: 20px;
+}
+
+h5{
+    font-size:65px;
+    font-weight:700;
+}
+.card-img-top{
+    width:100%;
+    margin:16px 0 20px 0;
+}
+/* SECCION N° 5  */
+
+.content5{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    align-content: left;
+}
+.content5 .textBox{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    font-family: 'Poppins';
+    text-align: left;
+}
+.content5 .textBox h6{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content5 .textBox p{
+    color: #333;
+    font-size: 1.8em;
+    font-family: 'Poppins';
+}
+.content5 .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content5 .logo{
+    width:500px;
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 10px;
+    align-self: center;
+    align-content: left;
+}
