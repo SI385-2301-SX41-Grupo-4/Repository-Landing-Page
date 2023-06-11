@@ -4,50 +4,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.navegation{
-    position:relative;
-    width:100%;
-    padding: 50px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background: #fff;
-}
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.container-fluid .logo{
-    position: relative;
-    max-width: 100px;
-    align-items: left;
-}
-.container-fluid #navbar-nav{
-    position: relative;
-    display: flex;
-}
-.nav-item{
-    list-style: none;
-}
-#nav-link {
-    display: inline-block;
-    color: #333;
-    font-weight: 400;
-    margin-left: 40px;
-    text-decoration: none;
-}
 
-/* SECCION N° 1  */
+/* SECCION N° 1  */ 
 
 .content{
+    background-color: white;
     position:relative;
-    
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -58,15 +20,31 @@
     padding: 50px;
     font-family: 'Poppins';
 }
+.content .textBox h1{
+    color: #333;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: none;
+}
 .content .textBox h2{
     color: #333;
-    font-size: 4em;
-    line-height: 1.4em;
+    font-size: 3.5em;
+    line-height: 1em;
     font-weight: 500;
+    text-align: center;
+}
+.content .textBox h3{
+    color: #333;
+    font-size: 3em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: none;
 }
 .content .textBox h2 span{
-    color: #017143;
-    font-size:1.2em;
+    color: #8DE934;
+    font-size:1.4em;
     font-weight:900;
 }
 .content .textBox p{
@@ -91,27 +69,16 @@
     padding-right: 80px;
     margin-top: 10px;
 }
-.content .imagen img{
-    max-width: 340px;
-}
-.circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #017143;
-    clip-path: circle(600 px at center);
-}
+
 
 /* SECCION N° 2  */
 
 .content2{
+    background-color: #83D58F;
     position:relative;
     width:100%;
     display:flex;
     justify-content:space-between;
-    align-items:center;
 }
 .content2 .textBox{
     position: relative;
@@ -120,13 +87,12 @@
     font-family: 'Poppins';
 }
 .content2 .textBox h3{
-    color: #333;
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
     text-align: right;
     padding: 20px;
-    
+    font-family: 'Poppins';
 }
 .content2 .textBox p{
     color: #333;
@@ -134,83 +100,59 @@
     text-align: justify;
 }
 .content2 .logo{
-    width:500px;
+    width:600px;
     display:flex;
-    justify-content: flex-end;
-    padding: 10px;
+    padding: 60px;
     margin-top: 10px;
-    align-self: center;
-    
+    align-self: center;  
 }
 
-/* SECCION N° 3  */
+/* SECCION N° 3   */
 
-.content3{
-    position:relative;
-    width:100%;
-    display:flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding:64px 24px 90px 24px
-    
-}
-.content3 .card{
-    width: 40rem;
-}
 .content3 .card-title{
-    position: relative;
-    max-width: 600px;
-    padding: 80px;
-    font-family: 'Poppins';
-}
-/*.content3 .card-title h4{
-    color: #333;
-    font-size:65px;
-    
-    font-weight:700;
+    width: 960px;
+    padding: 50px 1px;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: right;
-    padding: 10px;
-} */
+}
+
 h4{
     font-size:65px;
-    font-weight:700;
+    font-weight:550;
+    line-height: 1em;
+}
+.content3 .card-img-top{
+    margin:2px 130px;
+    width:990px;
+    line-height: 1em;
+    text-align: right;
+    
 }
 /* SECCION N° 4  */
 
-.content4{
-    position:relative;
-    width:100%;
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    padding:64px 24px 90px 24px
+.card-content4{
+    width: 960px;
+    text-align: center;
+    font-size:20px;
+
 }
-.content4 .card{
-    width: 40rem;
-}
-.content4 .card-title{
-    position: relative;
-    max-width: 600px;
-    padding: 80px;
-    font-family: 'Poppins';
-}
-.content4 .card-title h5{
-    color: #333;
-    font-size: 65px;
-    line-height: 1.4em;
-    font-weight: 900;
+.card-body .card-title{
+    
+    display: flex;
+    width: 960px;
+    font-size: 17px;
     text-align: justify;
-    padding: 20px;
+}
+.my-cards {
+    display: flex;
+}
+.espacio-20 { 
+    margin:50px;
+    background: #8DE934;
 }
 
-h5{
-    font-size:65px;
-    font-weight:700;
-}
-.card-img-top{
-    width:100%;
-    margin:16px 0 20px 0;
-}
+
+
 /* SECCION N° 5  */
 
 .content5{
@@ -241,7 +183,7 @@ h5{
 }
 .content5 .textBox a{
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 8px 20px;
     background: #017143;
     color: #fff;
@@ -251,11 +193,21 @@ h5{
     text-decoration: none;
 }
 .content5 .logo{
-    width:500px;
+    width:600px;
     display:flex;
-    justify-content: flex-end;
-    padding: 10px;
+    padding: 60px;
     margin-top: 10px;
-    align-self: center;
-    align-content: left;
+}
+
+.card-body .card-title{
+    display: flex;
+    width: 960px;
+    font-size: 17px;
+    text-align: justify;
+}
+.my-cards {
+    display: flex;
+}
+.espacio-20 { 
+    margin:50px;
 }
