@@ -13,7 +13,7 @@
     align-items:center;
     background: #fff;
 }
-.navbar {
+.navbar{
     position: absolute; 
     top: 0;
     left: 0; 
@@ -35,14 +35,13 @@
 .nav-item{
     list-style: none;
 }
-#nav-link {
+#nav-link{
     display: inline-block;
     color: #333;
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
 }
-/* SECCION N° 1  */ 
 
 .content{
     background-color: white;
@@ -108,8 +107,6 @@
 }
 
 
-/* SECCION N° 2  */
-
 .content2{
     background-color: #83D58F;
     position:relative;
@@ -144,7 +141,6 @@
     align-self: center;  
 }
 
-/* SECCION N° 3   */
 
 .content3 .card-title{
     width: 960px;
@@ -165,7 +161,6 @@ h4{
     text-align: right;
     
 }
-/* SECCION N° 4  */
 
 .card-content4{
     width: 960px;
@@ -189,8 +184,6 @@ h4{
 }
 
 
-
-/* SECCION N° 5  */
 
 .content5{
     position:relative;
