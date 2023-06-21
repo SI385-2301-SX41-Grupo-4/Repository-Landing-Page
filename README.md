@@ -1,1 +1,0 @@
-# collenge_landing_page
