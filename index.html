@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>I CAN2!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-</head>
+  </head>
   <body> 
     <header>
       <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #8DE934">
@@ -21,13 +21,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page"  style="color:black;" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page"  style="color:black;" href="#seccion1">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color: #D43ECE;" href="#">Sobre Nosotros</a>
+                <a class="nav-link" style="color: #D43ECE;" href="#seccion2">Sobre Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:black;" href="#">Características</a>
+                <a class="nav-link" style="color:black;" href="#seccion3">Características</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#D43ECE;">Segmentos</a>
@@ -39,7 +39,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:black;" href="#">Soporte</a>
+                <a class="nav-link" style="color:black;" href="#seccion5">Soporte</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -53,7 +53,7 @@
       </nav>
     </header>
     <main>
-      <div class="content"> <!--SECCION 1 -->
+      <div class="content" id="seccion1"> <!--SECCION 1 -->
         <div class="textBox">
           <h1><span style="color: black;">Bienvenid@</span></h1>
           <h2><span style="color: #D43ECE;">I </span><span>can </span><span style="color:#D43ECE;">2!</span></h2>
@@ -67,7 +67,7 @@
           <img src="images/iphone.png" class="movile" >
         </div> 
       </div>   
-      <div class="content2">  <!--SECCION 2 -->
+      <div class="content2" id="seccion2" >  <!--SECCION 2 -->
         <div class="logo"> 
           <a href="#"><img src="images/logo.png" class="logo"></a>
         </div>
@@ -80,7 +80,7 @@
        </div>
      </div>
      <section>  <!--SECCION 3 -->
-        <div class="content3"> 
+        <div class="content3" id="seccion3"> 
           <div class="card">
             <h4 class="card-title"><span style="color: black;">Caracteristicas del <span style="color: #D43ECE;">I</span><span style="color: #57E609;">can</span><span style="color:#D43ECE;">2!</span></h4>
             <img src="images/caracteristicas.png" class="card-img-top" alt=" " >
@@ -88,7 +88,7 @@
        </div>
      </section>
      <section>  <!--SECCION 4 -->
-        <div class="card-content4">
+        <div class="card-content4" id="seccion4">
           <h4 class="card-title"><span style="color: #D43ECE;">Opiniones de Nuestros usuarios</span></h4>
         </div>
         <section>
@@ -98,29 +98,29 @@
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
            </div>
-           <div class="carousel-inner">
-             <div class="carousel-item active">
-               <img src="images/imagen sub1.jpg" class="d-block w-100" alt=" ">
-               <div class="carousel-caption d-none d-md-block">
-                 <h5>First slide label</h5>
-                 <p>Some representative placeholder content for the first slide.</p>
-               </div>
-             </div>
-             <div class="carousel-item">
-               <img src="images/imagen sub2.jpg" class="d-block w-100" alt=" ">
-               <div class="carousel-caption d-none d-md-block">
-                 <h5>Second slide label</h5>
-                 <p>Some representative placeholder content for the second slide.</p>
-               </div>
-             </div>
-             <div class="carousel-item">
-               <img src="images/imagen sub3.jpg" class="d-block w-100" alt=" ">
-               <div class="carousel-caption d-none d-md-block">
-                 <h5>Third slide label</h5>
-                 <p>Some representative placeholder content for the third slide.</p>
-               </div>
+           <section class="my-cards">
+            <div class="card espacio-20" style="width: 18rem;">
+             <img src="images/usuario1.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title"><span style="color: black;">Estrella Ramos</span></h5>
+               <p class="card-text">Lo interesante de la app es que puedo personalizar mis propios pictogramas, incluso los colores de la app. ¡La mejor app!</p>
              </div>
            </div>
+           <div class="card espacio-20" style="width: 18rem;">
+             <img src="images/usuario2.png" class="card-img-top" alt="...">
+             <div class="card-body">
+                <h5 class="card-title">Julian Herrera</h5>
+                <p class="card-text">Al principio, creía que era muy dificil de utilizarla, lo descargue para probrarlo y resulto muy practica e intuitiva, me encantaa!</p>
+             </div>
+           </div>
+           <div class="card espacio-20" style="width: 18rem;">
+             <img src="images/usuario3.png" class="card-img-top" alt="...">
+             <div class="card-body">
+                <h5 class="card-title">María Perez</h5>
+                <p class="card-text">¡Estoy feliz! Utilizar me ha mejorado a comunicarme con facildad con mi entorno, lo utilizo a diario!</p>
+              </div>
+            </div>
+         </section>
            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
              <span class="visually-hidden">Previous</span>
@@ -131,33 +131,10 @@
            </button>
          </div>
        </section>
-      </section>
-     <section class="my-cards">
-        <div class="card espacio-20" style="width: 18rem;">
-          <img src="images/usuario1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-           <h5 class="card-title"><span style="color: black;">Estrella Ramos</span></h5>
-           <p class="card-text">Lo interesante de la app es que puedo personalizar mis propios pictogramas, incluso los colores de la app. ¡La mejor app!</p>
-         </div>
-       </div>
-       <div class="card espacio-20" style="width: 18rem;">
-          <img src="images/usuario2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Julian Herrera</h5>
-            <p class="card-text">Al principio, creía que era muy dificil de utilizarla, lo descargue para probrarlo y resulto muy practica e intuitiva, me encantaa!</p>
-          </div>
-       </div>
-       <div class="card espacio-20" style="width: 18rem;">
-          <img src="images/usuario3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">María Perez</h5>
-            <p class="card-text">¡Estoy feliz! Utilizar me ha mejorado a comunicarme con facildad con mi entorno, lo utilizo a diario!</p>
-          </div>
-       </div>
-      </section>
+       
      </section>
      <section>  <!--SECCION 5 -->
-        <div class="content5">
+        <div class="content5" id="seccion5">
           <div class="logo"> 
            <a href="#"><img src="images/logo.png" class="logo"></a>
           </div>
@@ -172,9 +149,9 @@
      </section>
     </main>
     <footer>
-      <div class="container-fluid">
-        <div class="row p-5 pb-2 bg-dark text-white">
-          <div class="col-xs-12 col-md-6 col-lg-3">
+      <div class="container-fluid-f">
+        <div class="row p-4 pb-2 bs-dark text-black">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <p class="h4" mb-3>Privacidad</p>
             <div class="ab-2">
               <a class="text-secondary text-decoration-none" href="#">Terminos y Condiciones</a>
@@ -186,19 +163,18 @@
               <a class="text-secondary text-decoration-none" href="#">Ayuda</a>
             </div>
           </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <p class="h4" mb-3>Contactenos</p>
-            <div class="ab-2">
-              <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+            <div class="redes">
+              <ul>
+                <li class="float"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="float"><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                <li class="float"><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                <li class="float"><a href="https://pe.linkedin.com/company/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
             </div>
-            <div class="ab-2">
-              <a class="text-secondary text-decoration-none" href="#">Instagram</a>
-            </div>
-            <div class="ab-2">
-              <a class="text-secondary text-decoration-none" href="#">Twitter</a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
+         </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <p class="h4" mb-3>Eventos</p>
             <div class="ab-3">
               <a class="text-secondary text-decoration-none" href="#">Acerca de la Actualizacion 2.3 82</a>
@@ -211,11 +187,12 @@
             </div>
           </div>
           <div class="col-xs-12 pt-3">
-            <p class="text-white text-center">Copyright - All rights reserved o 2023</p>
+            <p class="text-dark text-center">Copyright - All rights reserved 2023</p>
           </div>
         </div>
       </div>
-     </footer>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </body>
 </html>

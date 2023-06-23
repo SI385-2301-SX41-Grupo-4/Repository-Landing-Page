@@ -4,57 +4,17 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.navegation{
-    position:relative;
-    width:100%;
-    padding: 50px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background: #fff;
-}
-.navbar{
-    position: absolute; 
-    top: 0;
-    left: 0; 
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
-.container-fluid .logo{
-    position: relative;
-    max-width: 100px;
-    align-items: left;
-}
-.container-fluid #navbar-nav{
-    position: relative;
-    display: flex;
-}
-.nav-item{
-    list-style: none;
-}
-#nav-link{
-    display: inline-block;
-    color: #333;
-    font-weight: 400;
-    margin-left: 40px;
-    text-decoration: none;
-}
 
 .content{
     background-color: white;
-    position:relative;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 .content .textBox{
-    position: relative;
-    max-width: 600px;
+    text-align: justify;
+    width: 600px;
     padding: 50px;
-    font-family: 'Poppins';
 }
 .content .textBox h1{
     color: #333;
@@ -89,13 +49,13 @@
 }
 .content .textBox a{
     display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
+    margin-top: 40px;
+    padding: 10px 20px;
     background: #017143;
     color: #fff;
-    border-radius: 40px;
+    border-radius: 80px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
     text-decoration: none;
 }
 .content .imagen{
@@ -109,13 +69,13 @@
 
 .content2{
     background-color: #83D58F;
-    position:relative;
+  
     width:100%;
     display:flex;
     justify-content:space-between;
 }
 .content2 .textBox{
-    position: relative;
+ 
     max-width: 600px;
     padding: 80px;
     font-family: 'Poppins';
@@ -168,13 +128,6 @@ h4{
     font-size:20px;
 
 }
-.card-body .card-title{
-    
-    display: flex;
-    width: 960px;
-    font-size: 17px;
-    text-align: justify;
-}
 .my-cards {
     display: flex;
 }
@@ -186,18 +139,18 @@ h4{
 
 
 .content5{
-    position:relative;
+  
     width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    align-content: left;
+  
 }
 .content5 .textBox{
-    position: relative;
+    
     max-width: 600px;
     padding: 50px;
-    font-family: 'Poppins';
+   
     text-align: left;
 }
 .content5 .textBox h6{
@@ -231,7 +184,6 @@ h4{
 
 .card-body .card-title{
     display: flex;
-    width: 960px;
     font-size: 17px;
     text-align: justify;
 }
@@ -240,4 +192,21 @@ h4{
 }
 .espacio-20 { 
     margin:50px;
+}
+
+.redes{
+    display:flex
+    
+}
+
+.redes .float{
+    list-style: none;
+    display: inline;
+    font-size: 140%;
+    line-height: 2em;
+    letter-spacing:20px;
+}
+
+.container-fluid-f{
+    background-color: #83D58F;
 }
